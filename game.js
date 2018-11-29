@@ -130,7 +130,7 @@ const chosePlayer = () => {
 
         nameDisplay.textContent = archer.name;
         hpDisplay.textContent = archer.hp;
-        player1Display.style.backgroundImage = 'url("../img/Archer.jpg")';
+        player1Display.style.backgroundImage = 'url("img/Archer.jpg")';
       } else if (players[i] === playBoromir) {
         pickedPlayer();
 
@@ -138,7 +138,7 @@ const chosePlayer = () => {
 
         nameDisplay.textContent = warrior.name;
         hpDisplay.textContent = warrior.hp;
-        player1Display.style.backgroundImage = 'url("../img/Boromir.jpg")';
+        player1Display.style.backgroundImage = 'url("img/Boromir.jpg")';
       } else if (players[i] === playGoblin) {
         pickedPlayer();
 
@@ -146,7 +146,7 @@ const chosePlayer = () => {
 
         nameDisplay.textContent = goblin.name;
         hpDisplay.textContent = goblin.hp;
-        player1Display.style.backgroundImage = 'url("../img/Goblin.jpg")';
+        player1Display.style.backgroundImage = 'url("img/Goblin.jpg")';
       } else if (players[i] === playMage) {
         pickedPlayer();
 
@@ -154,7 +154,7 @@ const chosePlayer = () => {
 
         nameDisplay.textContent = mage.name;
         hpDisplay.textContent = mage.hp;
-        player1Display.style.backgroundImage = 'url("../img/Mage.jpg")';
+        player1Display.style.backgroundImage = 'url("img/Mage.jpg")';
       } else if (players[i] === playSwordsman) {
         pickedPlayer();
 
@@ -162,7 +162,7 @@ const chosePlayer = () => {
 
         nameDisplay.textContent = swordsman.name;
         hpDisplay.textContent = swordsman.hp;
-        player1Display.style.backgroundImage = 'url("../img/Swordsman.jpg")';
+        player1Display.style.backgroundImage = 'url("img/Swordsman.jpg")';
       }
 
       //======================== Computer choice styles ========================
@@ -174,7 +174,7 @@ const chosePlayer = () => {
 
         compNameDisplay.textContent = archer.name;
         compHpDisplay.textContent = archer.hp;
-        player2Display.style.backgroundImage = 'url("../img/Archer.jpg")';
+        player2Display.style.backgroundImage = 'url("img/Archer.jpg")';
       } else if (compChoice === compBoromir) {
         compPlayer();
 
@@ -182,7 +182,7 @@ const chosePlayer = () => {
 
         compNameDisplay.textContent = warrior.name;
         compHpDisplay.textContent = warrior.hp;
-        player2Display.style.backgroundImage = 'url("../img/Boromir.jpg")';
+        player2Display.style.backgroundImage = 'url("img/Boromir.jpg")';
       } else if (compChoice === compGoblin) {
         compPlayer();
 
@@ -190,7 +190,7 @@ const chosePlayer = () => {
 
         compNameDisplay.textContent = goblin.name;
         compHpDisplay.textContent = goblin.hp;
-        player2Display.style.backgroundImage = 'url("../img/Goblin.jpg")';
+        player2Display.style.backgroundImage = 'url("img/Goblin.jpg")';
       } else if (compChoice === compMage) {
         compPlayer();
 
@@ -198,7 +198,7 @@ const chosePlayer = () => {
 
         compNameDisplay.textContent = mage.name;
         compHpDisplay.textContent = mage.hp;
-        player2Display.style.backgroundImage = 'url("../img/Mage.jpg")';
+        player2Display.style.backgroundImage = 'url("img/Mage.jpg")';
       } else if (compChoice === compSwordsman) {
         compPlayer();
 
@@ -206,7 +206,7 @@ const chosePlayer = () => {
 
         compNameDisplay.textContent = swordsman.name;
         compHpDisplay.textContent = swordsman.hp;
-        player2Display.style.backgroundImage = 'url("../img/Swordsman.jpg")';
+        player2Display.style.backgroundImage = 'url("img/Swordsman.jpg")';
       }
 
       vsDiv.addEventListener("click", () => {
